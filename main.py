@@ -58,7 +58,7 @@ async def fun1():
 @app.post("/trigger")
 async def trigger_functions():
     try:
-        # Call the functions here
+        # Call the functions hereeeee
         print("Generating Google Sheet:")
 
         match_and_create_google_sheet(credentials_file, amazon_sheet_url, scrap_sheet_url, output_sheet_url, product_url)
